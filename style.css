@@ -1,0 +1,34 @@
+.container{
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.container div{
+    width: 20px;
+    height: 20px;
+}
+
+.black{
+    background-color: black;
+}
+
+.green{
+    background-color: rgb(58, 218, 5);
+    z-index: 10;
+}
+
+.gray{
+    background-color: gray;
+}
+
+.brown{
+    background-color: rgba(187, 77, 13, 0.892);
+}
+
+.red{
+    background-color: red;
+}
